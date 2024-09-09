@@ -1,20 +1,3 @@
-## Todo
-- Maybe add an "if(onServer)" to the deploy script update_amadeus.sh
-- Log file for the deploy script
-
-### Server
-- Multiple Snapshots
-- Logging
-- Multi-Server-Setup (multiple game servers, not only one)
-- Automatisches Herunterfahren, wenn keiner auf dem Server (?)
-
-### Telegram
-- <strike>Discord Bot</strike>
-- <strike>Daily Image Posting?</strike>
-- Mindestwahrscheinlichkeit: Attempts instead of end probability
-- Add Exception handler (decorator) for all commands
-
-____
 ## Setup
 ### Docker setup
 Pull the amadeus-docker-config repo and run the command ````make clone````. Then follow the
@@ -65,3 +48,20 @@ $ supervisorctl start
 $ supervisorctl stop
 $ supervisorctl restart
 ```
+____
+
+## Todo
+- Maybe add an "if(onServer)" to the deploy script update_amadeus.sh
+- Log file for the deploy script
+
+### Server
+- Multiple Snapshots
+- Logging
+- Multi-Server-Setup (multiple game servers, not only one)
+- Automatisches Herunterfahren, wenn keiner auf dem Server (?)
+
+### Telegram
+- <strike>Discord Bot</strike>
+- <strike>Daily Image Posting?</strike>
+- Mindestwahrscheinlichkeit: Attempts instead of end probability
+- Add Exception handler (decorator) for all commands

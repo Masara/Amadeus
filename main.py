@@ -93,7 +93,7 @@ if __name__ == '__main__':
     # Add Message-Handler
 
     # The message handler is triggered if certain specified messages are used in the chat
-    # message_handler = MessageHandler(Filters.all, message_handler.message_handler)
+    message_handler = MessageHandler(Filters.all, message_handler.message_handler)
 
     updater.dispatcher.add_handler(message_handler)
 
