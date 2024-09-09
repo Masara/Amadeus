@@ -1,0 +1,5 @@
+hcloud~=1.29.1
+python-telegram-bot==13.7
+beautifulsoup4==4.12.2
+cloudscraper
+lxml==4.9.3

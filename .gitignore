@@ -1,0 +1,9 @@
+restic_output.txt
+.env
+
+.venv/
+.idea/
+
+*.pyc
+src/data/*
+backups/
